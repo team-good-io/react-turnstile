@@ -72,4 +72,4 @@ Feel free to suggest improvements or report bugs via [issues](https://github.com
 
 ## License
 
-This package is licensed under the [MIT License](https://github.com/team-good-io/react-turnstile/LICENSE.md).
+This package is licensed under the [MIT License](https://github.com/team-good-io/react-turnstile/blob/main/LICENSE.md).
