@@ -1,10 +1,22 @@
 import { useEffect, useRef } from "react"
-import { TurnstileWidgetProps } from "./types";
 
 declare global {
   interface Window {
     turnstile?: Turnstile.Turnstile;
   }
+}
+
+export interface TurnstileWidgetProps {
+  siteKey: string
+  theme?: "auto" | "light" | "dark"
+  tabIndex?: number
+  size?: "normal" | "compact" | "flexible"
+  language?: string
+  appearance?: "always" | "execute" | "interaction-only"
+  onVerify?(token: string, preClearanceObtained?: boolean): void
+  onError?(error: string): void
+  onBeforeInteractive?(): void
+  onAfterInteractive?(): void
 }
 
 const TurnstileWidget = (props: Readonly<TurnstileWidgetProps>) => {
