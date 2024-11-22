@@ -2,7 +2,7 @@
   "name": "@team-good-io/react-turnstile",
   "private": false,
   "description": "React Turnstile Widget",
-  "version": "0.0.0-development",
+  "version": "1.0.1-development",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
