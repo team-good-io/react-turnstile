@@ -23,7 +23,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 'lets/*' # Specify the Node.js version
+          node-version: 'lts/*' # Specify the Node.js version
           cache: 'npm'
 
       # Step 3: Configure npm for scoped packages
