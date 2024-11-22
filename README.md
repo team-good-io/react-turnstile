@@ -54,7 +54,7 @@ const App = () => {
 ## Props
 
 * `siteKey` - Cloudflare Turnstile sitekey
-* `theme` - (Optional) Theme
+* `theme` - Theme
 * `tabIndex` - For accessibility
 * `size` - Widget size
 * `language` - Widget language
@@ -69,3 +69,7 @@ const App = () => {
 * [Cloudflare Turnstile](https://www.cloudflare.com/application-services/products/turnstile/) for providing the CAPTCHA service.
 
 Feel free to suggest improvements or report bugs via [issues](https://github.com/team-good-io/react-turnstile/issues).
+
+## License
+
+This package is licensed under the [MIT License](https://github.com/team-good-io/react-turnstile/LICENSE.md).
