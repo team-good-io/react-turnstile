@@ -1,5 +1,5 @@
 {
-  "name": "react-turnstile",
+  "name": "@team-good-io/react-turnstile",
   "private": false,
   "description": "React Turnstile Widget",
   "version": "1.0.0",
@@ -20,6 +20,7 @@
     "access": "public"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build"
   },
   "dependencies": {
@@ -30,6 +31,7 @@
   "devDependencies": {
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "@types/cloudflare-turnstile": "^0.2.2",
     "@vitejs/plugin-react": "^4.3.3",
     "typescript": "^5.6.3",
     "vite": "^5.4.11"
