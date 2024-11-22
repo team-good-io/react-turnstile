@@ -11,6 +11,7 @@ export interface TurnstileWidgetProps {
   theme?: "auto" | "light" | "dark"
   tabIndex?: number
   size?: "normal" | "compact" | "flexible"
+  retry?: "never" | "auto"
   language?: string
   appearance?: "always" | "execute" | "interaction-only"
   onVerify?(token: string, preClearanceObtained?: boolean): void
