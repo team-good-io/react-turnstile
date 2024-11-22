@@ -2,7 +2,7 @@
   "name": "@team-good-io/react-turnstile",
   "private": false,
   "description": "React Turnstile Widget",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,9 @@
     ".": {
       "import": "./dist/index.es.js",
       "require": "./dist/index.umd.js",
-      "types": ["./dist/index.d.ts"]
+      "types": [
+        "./dist/index.d.ts"
+      ]
     }
   },
   "files": [
@@ -21,7 +23,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build"
+    "build": "vite build",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "react": "^17.0.0 || ^18.0.0",
@@ -29,10 +32,11 @@
     "vite-plugin-dts": "^4.3.0"
   },
   "devDependencies": {
+    "@types/cloudflare-turnstile": "^0.2.2",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "@types/cloudflare-turnstile": "^0.2.2",
     "@vitejs/plugin-react": "^4.3.3",
+    "semantic-release": "^24.2.0",
     "typescript": "^5.6.3",
     "vite": "^5.4.11"
   }
