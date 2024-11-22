@@ -15,8 +15,6 @@ export interface TurnstileWidgetProps {
   appearance?: "always" | "execute" | "interaction-only"
   onVerify?(token: string, preClearanceObtained?: boolean): void
   onError?(error: string): void
-  onBeforeInteractive?(): void
-  onAfterInteractive?(): void
 }
 
 const TurnstileWidget = (props: Readonly<TurnstileWidgetProps>) => {
@@ -46,8 +44,6 @@ const TurnstileWidget = (props: Readonly<TurnstileWidgetProps>) => {
           appearance: props.appearance,
           callback: props.onVerify,
           "error-callback": props.onError,
-          "before-interactive-callback": props.onBeforeInteractive,
-          "after-interactive-callback": props.onAfterInteractive
         })
       }
     }
