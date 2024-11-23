@@ -10,7 +10,8 @@
   },
   "keywords": [
     "react",
-    "turnstile"
+    "turnstile",
+    "cloudflare"
   ],
   "version": "0.0.0-development",
   "main": "dist/index.umd.js",
