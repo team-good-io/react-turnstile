@@ -1,5 +1,6 @@
 {
   "name": "@team-good-io/react-turnstile",
+  "author": "Anton Aavik <anton@good-io.com> (https://good-io.com)",
   "private": false,
   "description": "React Turnstile Widget",
   "license": "MIT",
