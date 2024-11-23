@@ -2,7 +2,7 @@
   "name": "@team-good-io/react-turnstile",
   "author": "Anton Aavik <anton@good-io.com> (https://good-io.com)",
   "private": false,
-  "description": "React Turnstile Widget",
+  "description": "Turnstile Widget for React is a lightweight wrapper around Cloudflare's Turnstile widget.",
   "license": "MIT",
   "repository": {
     "type": "git",
